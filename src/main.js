@@ -1,4 +1,6 @@
+//lodash é utilizado através do _
 const _ = require("lodash");
+
 
 let words = ['sky', 'wood', 'forest', 'falcon',
     'pear', 'ocean', 'universe'];
@@ -50,4 +52,21 @@ vals.forEach( (e) => {
 
 });
 
+//Filter (Similar Where Linq)
+
+
+let nums = [4, -5, 3, 2, -1, 7, -6, 8, 9];
+
+let pos_nums = _.filter(nums, (e) => e > 0);
+console.log('Números mairo que zero:');
+console.log(pos_nums);
+
+//Trim
+let word = '   falcon   ';
+
+let trimmed = _.trim(word);
+console.log(word );
+console.log(trimmed );
+
 //Para descobrir mais funções ler documentação
+//https://zetcode.com/javascript/lodash/
