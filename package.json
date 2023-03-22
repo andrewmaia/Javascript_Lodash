@@ -1,0 +1,23 @@
+{
+  "name": "javascript_lodash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmaia/Javascript_Lodash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewmaia/Javascript_Lodash/issues"
+  },
+  "homepage": "https://github.com/andrewmaia/Javascript_Lodash#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
